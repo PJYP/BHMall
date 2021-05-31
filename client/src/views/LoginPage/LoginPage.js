@@ -37,7 +37,7 @@ export default function LoginPage(props) {
       <Header
         absolute
         color="transparent"
-        brand="Material Kit React"
+        brand="SHE"
         rightLinks={<HeaderLinks />}
         {...rest}
       />
@@ -86,10 +86,10 @@ export default function LoginPage(props) {
                       </Button>
                     </div>
                   </CardHeader>
-                  <p className={classes.divider}>Or Be Classical</p>
+                  <p className={classes.divider}></p>
                   <CardBody>
                     <CustomInput
-                      labelText="First Name..."
+                      labelText="First Name"
                       id="first"
                       formControlProps={{
                         fullWidth: true,
@@ -104,7 +104,7 @@ export default function LoginPage(props) {
                       }}
                     />
                     <CustomInput
-                      labelText="Email..."
+                      labelText="Email"
                       id="email"
                       formControlProps={{
                         fullWidth: true,
