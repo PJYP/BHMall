@@ -1,0 +1,7 @@
+{
+    "host": "database-she.covd4ccmpbhz.us-east-2.rds.amazonaws.com",
+    "user": "admin_she",
+    "password": "admin1234_she",
+    "port": "3306",
+    "databse": "she"
+}
