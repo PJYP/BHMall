@@ -27,6 +27,7 @@ import SectionCompletedExamples from "./Sections/SectionCompletedExamples.js";
 import SectionLogin from "./Sections/SectionLogin.js";
 import SectionExamples from "./Sections/SectionExamples.js";
 import SectionDownload from "./Sections/SectionDownload.js";
+import SectionTest from "./Sections/SectionTest.js";
 
 import styles from "assets/jss/material-kit-react/views/components.js";
 
@@ -64,6 +65,7 @@ export default function Components(props) {
       </Parallax>
 
       <div className={classNames(classes.main, classes.mainRaised)}>
+        <SectionTest />
         <SectionBasics />
         <SectionNavbars />
         <SectionTabs />
